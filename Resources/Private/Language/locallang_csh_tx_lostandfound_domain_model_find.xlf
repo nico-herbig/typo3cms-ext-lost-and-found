@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2016-05-31T00:00Z" product-name="lost_and_found">
+		<header/>
+		<body>
+			<!-- GeneSEZ Generator Hint: id=".description" -->
+			<!-- PROTECTED REGION ID(locallang_csh.xlf.en.description._16_9_8a7027a_1297194790786_915555_1655) ENABLED START -->
+			<trans-unit id=".description" xml:space="preserve">
+				<source></source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id=".details" -->
+			<!-- PROTECTED REGION ID(locallang_csh.xlf.en.details._16_9_8a7027a_1297194790786_915555_1655) ENABLED START -->
+			<trans-unit id=".details" xml:space="preserve">
+				<source></source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="number.description" -->
+			<!-- PROTECTED REGION ID(locallang_csh.xlf.en._17_0_6_8a7027a_1371151660454_327526_2590) ENABLED START -->
+			<trans-unit id="number.description" xml:space="preserve">
+				<source>Specify the number of the find.</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="name.description" -->
+			<!-- PROTECTED REGION ID(locallang_csh.xlf.en._16_9_8a7027a_1297194882955_681374_1735) ENABLED START -->
+			<trans-unit id="name.description" xml:space="preserve">
+				<source>Specify the name of the find.</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="date_of_finding.description" -->
+			<!-- PROTECTED REGION ID(locallang_csh.xlf.en._16_9_8a7027a_1297194886910_832299_1741) ENABLED START -->
+			<trans-unit id="date_of_finding.description" xml:space="preserve">
+				<source>Specify the date of finding of the find.</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="place_of_finding.description" -->
+			<!-- PROTECTED REGION ID(locallang_csh.xlf.en._17_0_6_8a7027a_1371633069778_994285_2062) ENABLED START -->
+			<trans-unit id="place_of_finding.description" xml:space="preserve">
+				<source>Specify the place of finding of the find.</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="category.description" -->
+			<!-- PROTECTED REGION ID(locallang_csh.xlf.en._16_9_8a7027a_1297195352189_179879_2445) ENABLED START -->
+			<trans-unit id="category.description" xml:space="preserve">
+				<source>Specify the category of the find.</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+
+			<!-- PROTECTED REGION ID(locallang_csh.xlf.en.own.localizations._16_9_8a7027a_1297194790786_915555_1655) ENABLED START -->
+			<!-- PROTECTED REGION END -->
+		</body>
+	</file>
+</xliff>

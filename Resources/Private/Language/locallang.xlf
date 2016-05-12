@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2016-05-31T00:00Z" product-name="lost_and_found">
+		<header/>
+		<body>
+			<!-- GeneSEZ Generator Hint: id="domain_model_category" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._16_9_8a7027a_1297194795235_681189_1679) ENABLED START -->
+			<trans-unit id="domain_model_category" xml:space="preserve">
+				<source>Kategorie</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_category.icon" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_3_16b8041b_1427122821072_480002_5689) ENABLED START -->
+			<trans-unit id="domain_model_category.icon" xml:space="preserve">
+				<source>Icon</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_category.name" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._16_9_8a7027a_1297194910826_608649_1757) ENABLED START -->
+			<trans-unit id="domain_model_category.name" xml:space="preserve">
+				<source>Name</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_find" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._16_9_8a7027a_1297194790786_915555_1655) ENABLED START -->
+			<trans-unit id="domain_model_find" xml:space="preserve">
+				<source>Find</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_find.number" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._17_0_6_8a7027a_1371151660454_327526_2590) ENABLED START -->
+			<trans-unit id="domain_model_find.number" xml:space="preserve">
+				<source>Number of Find</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_find.name" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._16_9_8a7027a_1297194882955_681374_1735) ENABLED START -->
+			<trans-unit id="domain_model_find.name" xml:space="preserve">
+				<source>Name of Find</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_find.dateOfFinding" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._16_9_8a7027a_1297194886910_832299_1741) ENABLED START -->
+			<trans-unit id="domain_model_find.dateOfFinding" xml:space="preserve">
+				<source>Date of Finding</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_find.placeOfFinding" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._17_0_6_8a7027a_1371633069778_994285_2062) ENABLED START -->
+			<trans-unit id="domain_model_find.placeOfFinding" xml:space="preserve">
+				<source>Place of Finding</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_find.category" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._16_9_8a7027a_1297195352189_179879_2445) ENABLED START -->
+			<trans-unit id="domain_model_find.category" xml:space="preserve">
+				<source>Category</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+
+			<!-- PROTECTED REGION ID(locallang.xlf.en.own.localizations.eee_1045467100313_135436_1) ENABLED START -->
+			
+			<!--
+				===============================================================
+				MESSAGES THAT ARE USED IN CONTROLLERS AND VIEWS
+				===============================================================
+			-->
+
+			<trans-unit id="message.warning.noCategoriesFound.title" xml:space="preserve">
+				<source>Error</source>
+			</trans-unit>
+			<trans-unit id="message.warning.noCategoriesFound.body" xml:space="preserve">
+				<source>No categories found.</source>
+			</trans-unit>
+			
+			<trans-unit id="message.info.noFindsForCategoryFound.title" xml:space="preserve">
+				<source>Info</source>
+			</trans-unit>
+			<trans-unit id="message.info.noFindsForCategoryFound.body" xml:space="preserve">
+				<source>No finds for this category found.</source>
+			</trans-unit>
+			
+			<!-- PROTECTED REGION END -->
+		</body>
+	</file>
+</xliff>

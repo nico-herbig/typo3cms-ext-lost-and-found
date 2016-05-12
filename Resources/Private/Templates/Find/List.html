@@ -1,0 +1,66 @@
+{namespace laf=Systemmacher\SysmLostAndFound\ViewHelpers}
+
+
+<f:layout name="Default" />
+
+
+<f:section name="Content">
+
+<f:if condition="{categories}">
+	<f:then>
+		<div class="find-list-view">
+
+			<ul class="nav nav-tabs" role="tablist">
+				<f:for each="{categories}" as="categoryItem" iteration="categoryIterator">
+					<li class="{f:if(condition: categoryIterator.isFirst, then: 'active')}" role="presentation"><a href="#lostandfound-{categoryItem.uid}" aria-controls="{categoryItem.name}" data-toggle="tab"><f:if condition="{categoryItem.icon}"><span class="{categoryItem.icon}" aria-hidden="true"></span> </f:if>{categoryItem.name}</a></li>
+				</f:for>
+			</ul>
+
+			<div class="tab-content">
+				<f:for each="{categories}" as="categoryItem" iteration="categoryIterator">
+					<div class="tab-pane {f:if(condition: categoryIterator.isFirst, then: 'active')}" id="#lostandfound-{categoryItem.uid}" role="tabpanel">
+						<laf:filter category="{categoryItem}" as="finds">
+							<f:if condition="{finds}">
+								<f:then>
+									<table class="table table-hover table-striped">
+										<thead>
+											<tr>
+												<th>{f:translate(id: 'domain_model_find.name')}</th>
+												<th>{f:translate(id: 'domain_model_find.number')}</th>
+												<th>{f:translate(id: 'domain_model_find.dateOfFinding')}</th>
+												<th>{f:translate(id: 'domain_model_find.placeOfFinding')}</th>
+											</tr>
+										</thead>
+										<tbody>
+											<f:for each="{finds}" as="findItem">
+												<tr>
+													<td>{findItem.name}</td>
+													<td>{findItem.number}</td>
+													<td><f:format.date format="d.m.Y">{findItem.dateOfFinding}</f:format.date></td>
+													<td>{findItem.placeOfFinding}</td>
+												</tr>
+											</f:for>
+										</tbody>
+									</table>
+								</f:then>
+								<f:else>
+									<div class="no-finds-found alert alert-info">
+										<strong>{f:translate(id: 'message.info.noFindsForCategoryFound.title')}</strong> {f:translate(id: 'message.info.noFindsForCategoryFound.body')}
+									</div>
+								</f:else>
+							</f:if>
+						</laf:filter>
+					</div>
+				</f:for>
+			</div>
+
+		</div>
+	</f:then>
+	<f:else>
+		<div class="no-categories-found alert alert-danger">
+			<strong>{f:translate(id: 'message.warning.noCategoriesFound.title')}</strong> {f:translate(id: 'message.warning.noCategoriesFound.body')}
+		</div>
+	</f:else>
+</f:if>
+
+</f:section>

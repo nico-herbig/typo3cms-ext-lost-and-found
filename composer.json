@@ -1,0 +1,38 @@
+{
+  "name": "systemmacher/lost-and-found",
+  "description": "A simple Lost and Found extension.",
+  "version": "1.0.0",
+
+  "type": "typo3-cms-extension",
+
+  "keywords": ["TYPO3 CMS", "Systemmacher", "Nico Herbig"],
+  "homepage": "https://github.com/nico-herbig/typo3cms-ext-lost-and-found",
+  "license": "GPL-2.0+",
+
+  "authors": [
+    {
+      "name": "Nico Herbig",
+      "email": "webmaster@systemmacher.de",
+      "homepage": "https://www.systemmacher.de",
+      "role": "Developer"
+    }
+  ],
+
+  "support": {
+    "issues": "https://github.com/nico-herbig/typo3cms-ext-lost-and-found/issues"
+  },
+
+  "require": {
+    "typo3/cms-core": ">=7.6.0,<8.0"
+  },
+
+  "replace": {
+    "lost_and_found": "self.version"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "Systemmacher\\LostAndFound\\": "Classes/"
+    }
+  }
+}
