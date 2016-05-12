@@ -18,7 +18,7 @@ defined('TYPO3_MODE') or die();
 
 if (TYPO3_MODE === 'BE') {
     /* PROTECTED REGION ID(ext_localconf.php.own.command.controller.code.eee_1045467100313_135436_1) ENABLED START */
-	/* PROTECTED REGION END */
+    /* PROTECTED REGION END */
 }
 
 /* PROTECTED REGION ID(ext_localconf.php.own.code.eee_1045467100313_135436_1) ENABLED START */

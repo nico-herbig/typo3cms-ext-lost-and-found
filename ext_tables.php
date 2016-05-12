@@ -16,7 +16,7 @@ defined('TYPO3_MODE') or die();
 
 if (TYPO3_MODE === 'BE') {
     /* PROTECTED REGION ID(ext_tables.php.own.module.code.eee_1045467100313_135436_1) ENABLED START */
-	/* PROTECTED REGION END */
+    /* PROTECTED REGION END */
 }
 
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile($_EXTKEY, 'Configuration/TypoScript', 'Systemmacher LostAndFound Setup');

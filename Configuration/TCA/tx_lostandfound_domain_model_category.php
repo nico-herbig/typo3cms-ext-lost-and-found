@@ -13,13 +13,13 @@ return [
         'searchFields' => 'icon, name',
         'dividers2tabs' => 1,
         /* PROTECTED REGION ID(tca.php.own.ctrl.section.code._16_9_8a7027a_1297194795235_681189_1679) ENABLED START */
-		'default_sortby' => 'ORDER BY name',
-		/* PROTECTED REGION END */
+        'default_sortby' => 'ORDER BY name',
+        /* PROTECTED REGION END */
     ],
     'interface' => [
         'showRecordFieldList' => 'icon, name',
         /* PROTECTED REGION ID(tca.php.own.interface.section.code._16_9_8a7027a_1297194795235_681189_1679) ENABLED START */
-		/* PROTECTED REGION END */
+        /* PROTECTED REGION END */
     ],
     'columns' => [
         'icon' => [
@@ -31,10 +31,10 @@ return [
                 'size' => 10,
                 'max' => 20,
                 'eval' => 'trim',
-				/* PROTECTED REGION END */
+                /* PROTECTED REGION END */
             ],
             /* PROTECTED REGION ID(tca.php.own.columns.section.column.code._16_9_8a7027a_1297194795235_681189_1679._18_0_3_16b8041b_1427122821072_480002_5689) ENABLED START */
-			/* PROTECTED REGION END */
+            /* PROTECTED REGION END */
         ],
         'name' => [
             'exclude' => false,
@@ -44,14 +44,14 @@ return [
                 /* PROTECTED REGION ID(tca.php.own.columns.section.column.config.code._16_9_8a7027a_1297194795235_681189_1679._16_9_8a7027a_1297194910826_608649_1757) ENABLED START */
                 'size' => 48,
                 'max' => 255,
-				'eval' => 'required, trim',
-				/* PROTECTED REGION END */
+                'eval' => 'required, trim',
+                /* PROTECTED REGION END */
             ],
             /* PROTECTED REGION ID(tca.php.own.columns.section.column.code._16_9_8a7027a_1297194795235_681189_1679._16_9_8a7027a_1297194910826_608649_1757) ENABLED START */
-			/* PROTECTED REGION END */
+            /* PROTECTED REGION END */
         ],
         /* PROTECTED REGION ID(tca.php.own.columns.section.code._16_9_8a7027a_1297194795235_681189_1679) ENABLED START */
-		/* PROTECTED REGION END */
+        /* PROTECTED REGION END */
     ],
     'types' => [
         '0' => [
@@ -60,12 +60,12 @@ return [
             /* PROTECTED REGION END */
         ],
         /* PROTECTED REGION ID(tca.php.own.types.section.code._16_9_8a7027a_1297194795235_681189_1679) ENABLED START */
-		/* PROTECTED REGION END */
+        /* PROTECTED REGION END */
     ],
     'palettes' => [
         /* PROTECTED REGION ID(tca.php.own.palettes.section.code._16_9_8a7027a_1297194795235_681189_1679) ENABLED START */
-		/* PROTECTED REGION END */
+        /* PROTECTED REGION END */
     ],
     /* PROTECTED REGION ID(tca.php.own.code._16_9_8a7027a_1297194795235_681189_1679) ENABLED START */
-	/* PROTECTED REGION END */
+    /* PROTECTED REGION END */
 ];

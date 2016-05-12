@@ -17,7 +17,7 @@ plugin.tx_lostandfound {
         }
     }
     // PROTECTED REGION ID(setup.txt.own.plugin.code.eee_1045467100313_135436_1) ENABLED START
-	// PROTECTED REGION END
+    // PROTECTED REGION END
 }
 
 // PROTECTED REGION ID(setup.txt.own.code.eee_1045467100313_135436_1) ENABLED START

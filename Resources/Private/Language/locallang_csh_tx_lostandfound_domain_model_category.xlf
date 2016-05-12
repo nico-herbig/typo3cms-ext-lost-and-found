@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <xliff version="1.0">
-	<file source-language="en" datatype="plaintext" original="messages" date="2016-05-31T00:00Z" product-name="lost_and_found">
-		<header/>
-		<body>
-			<!-- GeneSEZ Generator Hint: id=".description" -->
-			<!-- PROTECTED REGION ID(locallang_csh.xlf.en.description._16_9_8a7027a_1297194795235_681189_1679) ENABLED START -->
-			<trans-unit id=".description" xml:space="preserve">
-				<source></source>
-			</trans-unit>
-			<!-- PROTECTED REGION END -->
+    <file source-language="en" datatype="plaintext" original="messages" date="2016-05-31T00:00Z" product-name="lost_and_found">
+        <header/>
+        <body>
+            <!-- GeneSEZ Generator Hint: id=".description" -->
+            <!-- PROTECTED REGION ID(locallang_csh.xlf.en.description._16_9_8a7027a_1297194795235_681189_1679) ENABLED START -->
+            <trans-unit id=".description" xml:space="preserve">
+                <source></source>
+            </trans-unit>
+            <!-- PROTECTED REGION END -->
 
-			<!-- GeneSEZ Generator Hint: id=".details" -->
-			<!-- PROTECTED REGION ID(locallang_csh.xlf.en.details._16_9_8a7027a_1297194795235_681189_1679) ENABLED START -->
-			<trans-unit id=".details" xml:space="preserve">
-				<source></source>
-			</trans-unit>
-			<!-- PROTECTED REGION END -->
+            <!-- GeneSEZ Generator Hint: id=".details" -->
+            <!-- PROTECTED REGION ID(locallang_csh.xlf.en.details._16_9_8a7027a_1297194795235_681189_1679) ENABLED START -->
+            <trans-unit id=".details" xml:space="preserve">
+                <source></source>
+            </trans-unit>
+            <!-- PROTECTED REGION END -->
 
-			<!-- GeneSEZ Generator Hint: id="icon.description" -->
-			<!-- PROTECTED REGION ID(locallang_csh.xlf.en._18_0_3_16b8041b_1427122821072_480002_5689) ENABLED START -->
-			<trans-unit id="icon.description" xml:space="preserve">
-				<source>Specify the icon of the category.</source>
-			</trans-unit>
-			<!-- PROTECTED REGION END -->
+            <!-- GeneSEZ Generator Hint: id="icon.description" -->
+            <!-- PROTECTED REGION ID(locallang_csh.xlf.en._18_0_3_16b8041b_1427122821072_480002_5689) ENABLED START -->
+            <trans-unit id="icon.description" xml:space="preserve">
+                <source>Specify the icon of the category.</source>
+            </trans-unit>
+            <!-- PROTECTED REGION END -->
 
-			<!-- GeneSEZ Generator Hint: id="name.description" -->
-			<!-- PROTECTED REGION ID(locallang_csh.xlf.en._16_9_8a7027a_1297194910826_608649_1757) ENABLED START -->
-			<trans-unit id="name.description" xml:space="preserve">
-				<source>Specify the name of the category.</source>
-			</trans-unit>
-			<!-- PROTECTED REGION END -->
+            <!-- GeneSEZ Generator Hint: id="name.description" -->
+            <!-- PROTECTED REGION ID(locallang_csh.xlf.en._16_9_8a7027a_1297194910826_608649_1757) ENABLED START -->
+            <trans-unit id="name.description" xml:space="preserve">
+                <source>Specify the name of the category.</source>
+            </trans-unit>
+            <!-- PROTECTED REGION END -->
 
 
-			<!-- PROTECTED REGION ID(locallang_csh.xlf.en.own.localizations._16_9_8a7027a_1297194795235_681189_1679) ENABLED START -->
-			<!-- PROTECTED REGION END -->
-		</body>
-	</file>
+            <!-- PROTECTED REGION ID(locallang_csh.xlf.en.own.localizations._16_9_8a7027a_1297194795235_681189_1679) ENABLED START -->
+            <!-- PROTECTED REGION END -->
+        </body>
+    </file>
 </xliff>

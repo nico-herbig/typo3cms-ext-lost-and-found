@@ -46,8 +46,8 @@ class CategoryRepository extends \TYPO3\CMS\Extbase\Persistence\Repository
     {
         /* PROTECTED REGION ID(php.constructor.own.code._18_0_5_16b8041b_1462541353227_675641_5545) ENABLED START */
         $this->defaultOrderings = [
-			'name' => QueryInterface::ORDER_ASCENDING,
-		];
+            'name' => QueryInterface::ORDER_ASCENDING,
+        ];
         /* PROTECTED REGION END */
     }
 
