@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+	(c) Nico Herbig (Systemmacher)
+	All rights reserved.
+-->
+
+<!--
+	Project-specific Type Mapping.
+
+	@author	Nico Herbig <webmaster@systemmacher.de> (Maintainer)
+-->
+
+<tns:typeMapping xmlns:tns="http://www.genesez.org/typemapping"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<tns:include>
+		<tns:file>org/genesez/platform/typo3/cms/mvc/typemapping/typemapping.xml</tns:file>
+	</tns:include>
+
+	<tns:externalTypes>
+
+		<!-- we used the type 'Date' and declared it as 'external' within the UML model -->
+		<tns:type from="Date">
+			<tns:to>\DateTime</tns:to>
+			<tns:context name="SqlColumnType">int(11) DEFAULT '0' NOT NULL</tns:context>
+			<tns:context name="GuiType">Date</tns:context>
+		</tns:type>
+		
+		<!-- we used the type 'String20' and declared it as 'external' within the UML model -->
+		<tns:type from="String20">
+			<tns:to>string</tns:to>
+			<tns:context name="SqlColumnType">varchar(20) DEFAULT '' NOT NULL</tns:context>
+			<tns:context name="GuiType">String</tns:context>
+		</tns:type>
+		
+		<!-- we used the type 'String255' and declared it as 'external' within the UML model -->
+		<tns:type from="String255">
+			<tns:to>string</tns:to>
+			<tns:context name="SqlColumnType">varchar(255) DEFAULT '' NOT NULL</tns:context>
+			<tns:context name="GuiType">String</tns:context>
+		</tns:type>
+
+	</tns:externalTypes>
+</tns:typeMapping>
